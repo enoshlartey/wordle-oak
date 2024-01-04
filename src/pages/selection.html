@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Play Now! - Wordle</title>
+		<link rel="stylesheet" type="text/css" href="/src/input.css" />
+		<link rel="stylesheet" type="text/css" href="/src/output.css" />
+	</head>
+
+	<body class="bg-[#0B1340] h-screen w-screen">
+		<div
+			id="body-content"
+			class="h-full flex items-center justify-center flex-col gap-10"
+		>
+            <div class="flex justify-center">
+                <a href="../../index.html" class="flex items-center gap-2 font-Metral-Medium text-white hover:underline">
+                    
+                    < Return
+                </a>
+            </div>
+            <div class="flex flex-col gap-3">
+                <div id="wordleIndicator" class="flex flex-col">
+                    <div  class="grid grid-cols-4 ">
+                        <div class="bg-green-500 border-white border-2  p-4 rounded-tl-md"></div>
+                        <div class="bg-red-600 border-white border-2  p-4"></div>
+                        <div class="bg-transparent border-white border-2  p-4"></div>
+                        <div class="bg-red-600  border-2 border-white p-4 rounded-tr-md"></div>
+                    </div>
+                    <div class="grid grid-cols-4 ">
+                        <div class="bg-yellow-400  border-2 border-white  p-4 rounded-bl-md"></div>
+                        <div class="bg-transparent  border-2 border-white   p-4"></div>
+                        <div class="bg-green-500  border-2 border-white p-4"></div>
+                        <div class="bg-yellow-400  border-2 border-white  p-4 rounded-br-md"></div>
+                    </div>
+                </div>
+                
+                <div class="text-white w-full flex justify-center">
+                    <h5 class="font-Metral-ExtraBold text-4xl">Wordle</h5>
+                </div>
+            </div>
+            <div class="flex flex-col gap-6">
+                <div class="flex justify-center font-Metral-Light text-white text-center text-2xl">
+                    <h6 class="">Select a word length:</h6>
+                </div>
+                <div class="flex flex-row gap-5">
+                    <a href="./four.html" class="py-3 px-6 border-2 font-Metral-Bold text-Large rounded-2xl text-white hover:bg-white hover:text-[#0B1340]">Four Letter</a>
+                    <a href="./five.html" class="py-3 px-6 border-2 font-Metral-Bold text-Large rounded-2xl text-white hover:bg-white hover:text-[#0B1340]">Five Letter</a>
+                    <a href="./six.html" class="py-3 px-6 border-2 font-Metral-Bold text-Large rounded-2xl text-white hover:bg-white hover:text-[#0B1340]">Six Letter</a>
+                </div>
+            </div>
+		</div>
+	</body>
+</html>

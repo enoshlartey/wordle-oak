@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import '../src/static/styles/index.css';
+@import '../src/static/styles/selection.css';
+@import '../src/static/styles/four.css';
+@import '../src/static/styles/five.css';
+@import '../src/static/styles/six.css';
+
+
+
+@font-face {
+    font-family: Metral-Black;
+    src: url(../src/static/fonts/metral/MetralTrial-Black-BF6594cc68e15a1.otf) format('opentype');
+}
+
+@font-face {
+    font-family: Metral-ExtraBold;
+    src: url(../src/static/fonts/metral/MetralTrial-ExtraBold-BF6594cc696e709.otf) format('opentype');
+}
+
+@font-face {
+    font-family: Metral-Bold;
+    src: url(../src/static/fonts/metral/MetralTrial-Bold-BF6594cc69546d6.otf) format('opentype');
+}
+
+@font-face {
+    font-family: Metral-Medium;
+    src: url(../src/static/fonts/metral/MetralTrial-Medium-BF6594cc69b2547.otf) format('opentype');
+}
+
+@font-face {
+    font-family: Metral-Regular;
+    src: url(../src/static/fonts/metral/MetralTrial-Regular-BF6594cc69bcc9f.otf) format('opentype');
+}
+
+@font-face {
+    font-family: Metral-Light;
+    src: url(../src/static/fonts/metral/MetralTrial-Light-BF6594cc698f0c9.otf) format('opentype');
+}
+
+@font-face {
+    font-family: Metral-ExtraLight;
+    src: url(../src/static/fonts/metral/MetralTrial-ExtraLight-BF6594cc69782ad.otf) format('opentype');
+}
